@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF04774F1D3948740067CEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04774E1D3948740067CEED /* AppDelegate.swift */; };
+		CF0477511D3948740067CEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0477501D3948740067CEED /* ViewController.swift */; };
+		CF0477541D3948740067CEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0477521D3948740067CEED /* Main.storyboard */; };
+		CF0477561D3948740067CEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0477551D3948740067CEED /* Assets.xcassets */; };
+		CF0477591D3948740067CEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0477571D3948740067CEED /* LaunchScreen.storyboard */; };
+		CF0477641D3948740067CEED /* PokemonEvoQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0477631D3948740067CEED /* PokemonEvoQuizTests.swift */; };
+		CF04776F1D3948740067CEED /* PokemonEvoQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04776E1D3948740067CEED /* PokemonEvoQuizUITests.swift */; };
+		CF04777D1D395B500067CEED /* FirstQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04777C1D395B500067CEED /* FirstQuizViewController.swift */; };
+		CF04777F1D3993CD0067CEED /* PsyduckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04777E1D3993CD0067CEED /* PsyduckViewController.swift */; };
+		CF0477811D39989D0067CEED /* SandshrewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0477801D39989D0067CEED /* SandshrewViewController.swift */; };
+		CF0477831D399CE10067CEED /* VenonatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0477821D399CE10067CEED /* VenonatViewController.swift */; };
+		CF0477851D399EEB0067CEED /* SlowpokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0477841D399EEB0067CEED /* SlowpokeViewController.swift */; };
+		CF0477891D39ACED0067CEED /* PokemonTVThemeSongFull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF0477881D39ACED0067CEED /* PokemonTVThemeSongFull.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0477601D3948740067CEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0477431D3948740067CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF04774A1D3948740067CEED;
+			remoteInfo = PokemonEvoQuiz;
+		};
+		CF04776B1D3948740067CEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0477431D3948740067CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF04774A1D3948740067CEED;
+			remoteInfo = PokemonEvoQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF04774B1D3948740067CEED /* PokemonEvoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonEvoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04774E1D3948740067CEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF0477501D3948740067CEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF0477531D3948740067CEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0477551D3948740067CEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF0477581D3948740067CEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF04775A1D3948740067CEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04775F1D3948740067CEED /* PokemonEvoQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonEvoQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0477631D3948740067CEED /* PokemonEvoQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEvoQuizTests.swift; sourceTree = "<group>"; };
+		CF0477651D3948740067CEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04776A1D3948740067CEED /* PokemonEvoQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonEvoQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04776E1D3948740067CEED /* PokemonEvoQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEvoQuizUITests.swift; sourceTree = "<group>"; };
+		CF0477701D3948740067CEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04777C1D395B500067CEED /* FirstQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstQuizViewController.swift; sourceTree = "<group>"; };
+		CF04777E1D3993CD0067CEED /* PsyduckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PsyduckViewController.swift; sourceTree = "<group>"; };
+		CF0477801D39989D0067CEED /* SandshrewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandshrewViewController.swift; sourceTree = "<group>"; };
+		CF0477821D399CE10067CEED /* VenonatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenonatViewController.swift; sourceTree = "<group>"; };
+		CF0477841D399EEB0067CEED /* SlowpokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlowpokeViewController.swift; sourceTree = "<group>"; };
+		CF0477881D39ACED0067CEED /* PokemonTVThemeSongFull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PokemonTVThemeSongFull.mp3; path = ../../../../../../Downloads/PokemonTVThemeSongFull.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0477481D3948740067CEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04775C1D3948740067CEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0477671D3948740067CEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0477421D3948740067CEED = {
+			isa = PBXGroup;
+			children = (
+				CF04774D1D3948740067CEED /* PokemonEvoQuiz */,
+				CF0477621D3948740067CEED /* PokemonEvoQuizTests */,
+				CF04776D1D3948740067CEED /* PokemonEvoQuizUITests */,
+				CF04774C1D3948740067CEED /* Products */,
+				CF0477881D39ACED0067CEED /* PokemonTVThemeSongFull.mp3 */,
+			);
+			sourceTree = "<group>";
+		};
+		CF04774C1D3948740067CEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF04774B1D3948740067CEED /* PokemonEvoQuiz.app */,
+				CF04775F1D3948740067CEED /* PokemonEvoQuizTests.xctest */,
+				CF04776A1D3948740067CEED /* PokemonEvoQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF04774D1D3948740067CEED /* PokemonEvoQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				CF04774E1D3948740067CEED /* AppDelegate.swift */,
+				CF0477501D3948740067CEED /* ViewController.swift */,
+				CF04777C1D395B500067CEED /* FirstQuizViewController.swift */,
+				CF04777E1D3993CD0067CEED /* PsyduckViewController.swift */,
+				CF0477801D39989D0067CEED /* SandshrewViewController.swift */,
+				CF0477521D3948740067CEED /* Main.storyboard */,
+				CF0477821D399CE10067CEED /* VenonatViewController.swift */,
+				CF0477841D399EEB0067CEED /* SlowpokeViewController.swift */,
+				CF0477551D3948740067CEED /* Assets.xcassets */,
+				CF0477571D3948740067CEED /* LaunchScreen.storyboard */,
+				CF04775A1D3948740067CEED /* Info.plist */,
+			);
+			path = PokemonEvoQuiz;
+			sourceTree = "<group>";
+		};
+		CF0477621D3948740067CEED /* PokemonEvoQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0477631D3948740067CEED /* PokemonEvoQuizTests.swift */,
+				CF0477651D3948740067CEED /* Info.plist */,
+			);
+			path = PokemonEvoQuizTests;
+			sourceTree = "<group>";
+		};
+		CF04776D1D3948740067CEED /* PokemonEvoQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF04776E1D3948740067CEED /* PokemonEvoQuizUITests.swift */,
+				CF0477701D3948740067CEED /* Info.plist */,
+			);
+			path = PokemonEvoQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF04774A1D3948740067CEED /* PokemonEvoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0477731D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuiz" */;
+			buildPhases = (
+				CF0477471D3948740067CEED /* Sources */,
+				CF0477481D3948740067CEED /* Frameworks */,
+				CF0477491D3948740067CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonEvoQuiz;
+			productName = PokemonEvoQuiz;
+			productReference = CF04774B1D3948740067CEED /* PokemonEvoQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF04775E1D3948740067CEED /* PokemonEvoQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0477761D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuizTests" */;
+			buildPhases = (
+				CF04775B1D3948740067CEED /* Sources */,
+				CF04775C1D3948740067CEED /* Frameworks */,
+				CF04775D1D3948740067CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0477611D3948740067CEED /* PBXTargetDependency */,
+			);
+			name = PokemonEvoQuizTests;
+			productName = PokemonEvoQuizTests;
+			productReference = CF04775F1D3948740067CEED /* PokemonEvoQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF0477691D3948740067CEED /* PokemonEvoQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0477791D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuizUITests" */;
+			buildPhases = (
+				CF0477661D3948740067CEED /* Sources */,
+				CF0477671D3948740067CEED /* Frameworks */,
+				CF0477681D3948740067CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF04776C1D3948740067CEED /* PBXTargetDependency */,
+			);
+			name = PokemonEvoQuizUITests;
+			productName = PokemonEvoQuizUITests;
+			productReference = CF04776A1D3948740067CEED /* PokemonEvoQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0477431D3948740067CEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Nghia;
+				TargetAttributes = {
+					CF04774A1D3948740067CEED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CF04775E1D3948740067CEED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CF04774A1D3948740067CEED;
+					};
+					CF0477691D3948740067CEED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CF04774A1D3948740067CEED;
+					};
+				};
+			};
+			buildConfigurationList = CF0477461D3948740067CEED /* Build configuration list for PBXProject "PokemonEvoQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0477421D3948740067CEED;
+			productRefGroup = CF04774C1D3948740067CEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF04774A1D3948740067CEED /* PokemonEvoQuiz */,
+				CF04775E1D3948740067CEED /* PokemonEvoQuizTests */,
+				CF0477691D3948740067CEED /* PokemonEvoQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0477491D3948740067CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0477891D39ACED0067CEED /* PokemonTVThemeSongFull.mp3 in Resources */,
+				CF0477591D3948740067CEED /* LaunchScreen.storyboard in Resources */,
+				CF0477561D3948740067CEED /* Assets.xcassets in Resources */,
+				CF0477541D3948740067CEED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04775D1D3948740067CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0477681D3948740067CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0477471D3948740067CEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0477511D3948740067CEED /* ViewController.swift in Sources */,
+				CF0477851D399EEB0067CEED /* SlowpokeViewController.swift in Sources */,
+				CF04774F1D3948740067CEED /* AppDelegate.swift in Sources */,
+				CF04777F1D3993CD0067CEED /* PsyduckViewController.swift in Sources */,
+				CF0477831D399CE10067CEED /* VenonatViewController.swift in Sources */,
+				CF0477811D39989D0067CEED /* SandshrewViewController.swift in Sources */,
+				CF04777D1D395B500067CEED /* FirstQuizViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04775B1D3948740067CEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0477641D3948740067CEED /* PokemonEvoQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0477661D3948740067CEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04776F1D3948740067CEED /* PokemonEvoQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF0477611D3948740067CEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF04774A1D3948740067CEED /* PokemonEvoQuiz */;
+			targetProxy = CF0477601D3948740067CEED /* PBXContainerItemProxy */;
+		};
+		CF04776C1D3948740067CEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF04774A1D3948740067CEED /* PokemonEvoQuiz */;
+			targetProxy = CF04776B1D3948740067CEED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0477521D3948740067CEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0477531D3948740067CEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF0477571D3948740067CEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0477581D3948740067CEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0477711D3948740067CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0477721D3948740067CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0477741D3948740067CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonEvoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF0477751D3948740067CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokemonEvoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF0477771D3948740067CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokemonEvoQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonEvoQuiz.app/PokemonEvoQuiz";
+			};
+			name = Debug;
+		};
+		CF0477781D3948740067CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokemonEvoQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonEvoQuiz.app/PokemonEvoQuiz";
+			};
+			name = Release;
+		};
+		CF04777A1D3948740067CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokemonEvoQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonEvoQuiz;
+			};
+			name = Debug;
+		};
+		CF04777B1D3948740067CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokemonEvoQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nghia.PokemonEvoQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonEvoQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0477461D3948740067CEED /* Build configuration list for PBXProject "PokemonEvoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0477711D3948740067CEED /* Debug */,
+				CF0477721D3948740067CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0477731D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0477741D3948740067CEED /* Debug */,
+				CF0477751D3948740067CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0477761D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0477771D3948740067CEED /* Debug */,
+				CF0477781D3948740067CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0477791D3948740067CEED /* Build configuration list for PBXNativeTarget "PokemonEvoQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04777A1D3948740067CEED /* Debug */,
+				CF04777B1D3948740067CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0477431D3948740067CEED /* Project object */;
+}
